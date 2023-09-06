@@ -1,0 +1,111 @@
+/* 
+External CSS file for background and color schemes
+*/
+body {
+    background-color: lightgray;
+}
+
+/* 
+* { forces a font for the webpage
+*/
+
+* { 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#start {
+    background-color: white;
+
+}
+
+.green {
+    color: green;
+}
+
+.green, th {
+    color: green;
+}
+
+input[type="text"] {
+    background-color: antiquewhite;
+}
+
+input[type="number"]:invalid {
+    color: red;
+}
+
+p {
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    border: solid 2px blue;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+h2 {
+    color: blue;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#paragraph {
+    border: solid 2px blue;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 5px;
+}
+
+input[type="button"],input[type="submit"], input[type="reset"], a {
+    display: block;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 4px blue;
+    border-radius: 10px;
+    color: blue;
+    background-color: white;
+    margin: 10px;
+    font-weight: bold;
+}
+
+input[type="button"]:hover,input[type="submit"]:hover, input[type="reset"]:hover, a:hover {
+    color: white;
+    background-color: blue;
+}
+
+input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:active, a:active {
+    color: white;
+    background-color:red;
+}
+
+a {
+    width: 200px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+a:visited {
+    color: purple;
+}
+
+ul {
+    list-style-type: square;
+    background-color: white;
+    list-style-position: inside;
+}

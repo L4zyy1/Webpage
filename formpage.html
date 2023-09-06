@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h1>Temperatures registration</h1>
+    <form action="#" method="get">
+        <label for="registrator">Registrator:</label>
+        <input value="" placeholder="enter name here" input type="text" name="registrator" id="registrator"> <!--only takes 1 string of text-->
+        <br>
+        <label for="measuredate">Date: </label>
+        <input type="date" name="measuredate" id="measuredate">
+        <br>
+        <label for="location">Location:</label>
+        <select name="location" id="location">
+            <option value="Valletta">Valletta</option>
+            <option value="Barcelona">Barcelona</option>
+            <option value="Athens">Athens</option>
+            <option value="Marsaskala">Marsaskala</option>
+            <option value="Espoo">Espoo</option>
+        </select>
+        <br>
+        <div>Weather type:</div>
+        <input type="radio" name="weathertype" id="sunny" value="sunny" checked>
+        <label for="sunny">Sunny</label>
+        <br>
+        <input type="radio" name="weathertype" id="rainy" value="rainy">
+        <label for="rainy">Rainy</label>
+        <br>
+        <input type="radio" name="weathertype" id="cloudy" value="cloudy">
+        <label for="cloudy">Cloudy</label>
+        <br>
+        <input type="checkbox" name="windy" id="windy" value="true">
+        <label for="windy">Windy</label>
+        <br>
+        <label for="celsius" class="green">Temperature:</label>
+        <input type="number" name="celsius" id="celsius" min="-50" max="40" value="0">
+        <br>
+        <label for="comment">Comment:</label>
+        <textarea name="comment" id="comment" cols="30" rows="3">enter comments here..</textarea> <!--cols and rows tells how much text we can write-->
+        <br>
+        <input type="button" value="Calculate" name="calculate" id="calculate">
+        <br>
+        <input type="button" value="Send to server" name="submit">
+        <br>
+        <input type="reset" value="Regret input">
+        <br>
+    </form>
+</body>
+</html>
