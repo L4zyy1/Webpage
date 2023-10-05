@@ -5,24 +5,15 @@ body {
     background-color: lightgray;
 }
 
-/* 
-* { forces a font for the webpage
-*/
-
 * { 
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #start {
     background-color: white;
-
 }
 
 .green {
-    color: green;
-}
-
-.green, th {
     color: green;
 }
 
@@ -70,7 +61,7 @@ label {
     margin-bottom: 5px;
 }
 
-input[type="button"],input[type="submit"], input[type="reset"], a {
+input[type="button"], input[type="submit"], input[type="reset"], a {
     display: block;
     width: 150px;
     padding-top: 10px;
@@ -108,4 +99,30 @@ ul {
     list-style-type: square;
     background-color: white;
     list-style-position: inside;
+}
+
+table {
+    width:50%;
+    border: solid 2px red;
+    border-collapse: collapse;
+}
+th {
+    border: solid 1px red;
+    color: white;
+    background-color: gray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+td {
+    border: solid 1px red;
+    color:gray;
+    background-color: white;
+    padding-left: 2px;
+}
+
+@media screen and (max-width:1080px) {
+    body {
+        background-color: whitesmoke;
+    }
 }

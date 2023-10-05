@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration page</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <h1>Temperatures registration</h1>
@@ -38,7 +39,11 @@
         <label for="windy">Windy</label>
         <br>
         <label for="celsius" class="green">Temperature:</label>
-        <input type="number" name="celsius" id="celsius" min="-50" max="40" value="0">
+        <input type="number" name="celsius" id="celsius" min="-50" max="50" value="0">
+        <span id="current"></span>
+        <br>
+            <label>Fahrenheit:</label>
+            <span id="fahrenheit">0</span>
         <br>
         <label for="comment">Comment:</label>
         <textarea name="comment" id="comment" cols="30" rows="3">enter comments here..</textarea> <!--cols and rows tells how much text we can write-->
